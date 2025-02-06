@@ -1,0 +1,56 @@
+.diarypage {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua; /*임시*/
+    position: relative;
+}
+
+.diarypage_body{
+    width: 1300px;
+    height: 764px;
+    border-radius: 10;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background:#F8F1E5;
+    transform:translate(-50%,-50%); /* translate(x축,y축) */
+}
+
+.diarypage_body_title{
+    margin: 30px auto;
+    width: 1200px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.diarypage_body_content {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.diarypage_body_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.diarypage_body_button > button {
+    background-color: #FFB468;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.diarypage_body_button > button:last-child{
+    margin-right: 20px;
+}
+
+.diarypage_body_button > button > a{
+    color: #ffffff;
+}

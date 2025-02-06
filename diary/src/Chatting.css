@@ -1,0 +1,19 @@
+.chatting{
+    border: 1px solid #a77864;
+}
+
+/* .cs-message-input__tools*/
+.cs-message-input > div:first-child{ 
+    margin: 0px 10px;   
+}
+
+.name {
+    text-align: center;
+    color: #A77864;
+    font-size: 30px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #a77864;
+    background-color: #f3ece0;
+}
