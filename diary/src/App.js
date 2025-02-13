@@ -6,13 +6,10 @@ import Diarypage from './Diarypage';
 
 function App() {
   return (
-    <>  
       <Routes>
         <Route path="/" element={<Main_Page />} />
         <Route path="/diarypage" element={<Diarypage />} />
       </Routes>
-    </>
-
   );
 }
 

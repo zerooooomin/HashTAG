@@ -5,7 +5,7 @@ import './Chatting.css'
 import {MainContainer, ChatContainer, MessageList, Message, MessageInput} from '@chatscope/chat-ui-kit-react';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import Modal from './modal'
-import {useNavigate} from 'react-router-dom';
+
 
 const Chatting = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,15 +26,13 @@ const Chatting = () => {
   const toggleModal = () => {
     setIsModalOpen((prev) => !prev);
   };
-
+  const message_input_button = document.querySelector(".cs-message-input__tools");
     return (
       <div className='chatting'>
-        <MainContainer>
             <ul>
                 <li className='name'>사용자가 지정한 애칭</li>
-                <li style={{
+                <li className='chatting_body' style={{
                         width: 786,
-                        height: 827
                     }}>
                     <ChatContainer >
                         <MessageList style={{marginTop:15}}>
@@ -57,7 +55,7 @@ const Chatting = () => {
                 {isModalOpen && <Modal isOpen={isModalOpen} onClose={toggleModal} />}
             </ul> 
             
-        </MainContainer>
+
         </div>
     );
 };

@@ -4,13 +4,18 @@ import './App.css';
 import CalendarComponent from './FullCalendar';
 import Chatting from './Chatting.js';
 import Modal from './modal'
-import Naviba from './naviba.js';
+import Navibar from './navibar.js';
+import { useEffect } from 'react';
 
 function Main_Page() {
+    useEffect(() => {
+        console.log("🏠 Main Page is rendering...");
+    }, []);
+
     return (
             <div className='main_page'>
                 <header>
-                    <Naviba/>
+                    <Navibar />
                 </header>
                 <section className='main_page_body'>
                     <ul>
@@ -20,7 +25,7 @@ function Main_Page() {
                                     <ul>
                                         <li>
                                             <span>이달의 목표</span>
-                                        </li>
+                                        </li> 
                                         <li>
                                             우주 최강 푸바오되기
                                         </li>

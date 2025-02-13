@@ -17,3 +17,7 @@
     border-bottom: 1px solid #a77864;
     background-color: #f3ece0;
 }
+
+.chatting_body {
+    height: 88vh;
+}

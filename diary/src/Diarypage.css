@@ -6,12 +6,12 @@
 }
 
 .diarypage_body{
-    width: 1300px;
-    height: 764px;
+    width: 70%;
+    height: 75%;
     border-radius: 10;
     position:absolute;
-    top:50%;
-    left:50%;
+    top: 55%;
+    left: 50%;
     background:#F8F1E5;
     transform:translate(-50%,-50%); /* translate(x축,y축) */
 }

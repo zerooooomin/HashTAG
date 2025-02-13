@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import Diarypage from './Diarypage';
-
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Main_Page from './Main_Page';
+import { useNavigate } from 'react-router-dom';
 
 
+const Modal = ({ isOpen, onClose }) => {
+    const navigate = useNavigate();
 
-const Modal = ({ isOpen, onClose }) => { 
     if (!isOpen) return null;  
 
     // 새 창을 열기 위한 함수
     const ModalClickDiary = () => {
-        window.open( '/diarypage');  // 새 탭 또는 새 창에서 열기
+        navigate('/diarypage');  // 새 탭 또는 새 창에서 열기
     };
 
     return (

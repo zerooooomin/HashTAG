@@ -4,12 +4,11 @@
   color: #000;
   list-style: none;
   text-decoration: none;
-
 }
 
 .main_page  {
   height: 100vh;
-  background-color: #FFFDFA;
+  /* background-color: #FFFDFA; */
 }
 
 .main_page a {
@@ -20,7 +19,6 @@ nav {
   height: 100px;
   background-color: #A77864; 
   position: relative;
-
 }
 
 .logo {
@@ -48,7 +46,7 @@ nav {
   margin-left: 30px;
 }
 
-.main_page_body{
+.main_page_body  {
   width: 100%;
   height: calc(100vh - 100px);
 }
@@ -58,9 +56,12 @@ nav {
   justify-content: space-around;
 }
 
+.body_left{
+  width: 30%;
+}
 .body_left > ul > li{
-  width: 500px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
   margin: 130px 0;
 }
 
@@ -90,9 +91,11 @@ nav {
 .body_right {
   margin-top: 130px;
   width: 790px;
-  height: 890px;
-  background-color: #f3ece0; /*임시*/
+  height: 100%;
   position: relative;
+}
+.cs-chat-container {
+  height: 80%;
 }
 
 .modal {
@@ -105,7 +108,7 @@ nav {
   height: 180px;
   border-radius: 10%;
   position: absolute;
-  bottom: 10%;
+  bottom: 6%;
 }
 .modal_1 > li {
   cursor: pointer;
@@ -125,7 +128,7 @@ nav {
   border-left: 25px solid transparent;
   border-bottom: 50px solid #db987b;
   position: absolute;
-  bottom: 5%;
+  bottom: 0%;
   left: 1.2%;
   transform: rotate(180deg);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 
-function Naviba(){
+function Navibar(){
     return(
             <nav>
                     <div className='logo'>
@@ -21,4 +21,4 @@ function Naviba(){
     )
 }
 
-export default Naviba;
+export default Navibar;

@@ -1,12 +1,17 @@
 import React from "react";
 import './Diarypage.css'
-import Naviba from "./naviba";
+import Navibar from "./navibar";
+import { useEffect } from 'react';
 
 function Diarypage() {
+    useEffect(() => {
+        console.log("✅ Diarypage is loaded!");
+    }, []);
+
     return (
         <div className="diarypage">
             <header>
-                <Naviba/>
+                <Navibar />
             </header>
             <section className="diarypage_main">
                 <div className="diarypage_body">
