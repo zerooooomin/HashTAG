@@ -16,9 +16,9 @@ const Modal = ({ isOpen, onClose }) => {
     return (
         <div className='modal'>
             <ul className='modal_1'>
-                <li>
+                <li onClick={ModalClickDiary}>
                     {/* 새 창을 열기 위한 버튼 */}
-                    <span onClick={ModalClickDiary}>잘자요</span>
+                    잘자요
                 </li>
                 <li>
                     애칭 설정 

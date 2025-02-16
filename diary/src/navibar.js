@@ -1,11 +1,16 @@
-import React from "react";
+import {React} from "react";
 import './App.css';
+import { useNavigate } from 'react-router-dom';
 
 function Navibar(){
+    const navigate = useNavigate();
+    const ModalClickMainDiary = () => {
+        navigate('/');
+    }
     return(
             <nav>
                     <div className='logo'>
-                        <a href='#'>HashTAG</a>
+                        <span onClick={ModalClickMainDiary}>HashTAG</span>
                     </div>
                     <div>
                         <ul className='login_signup'>

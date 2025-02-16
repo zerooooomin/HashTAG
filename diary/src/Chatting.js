@@ -38,7 +38,7 @@ const Chatting = () => {
                         <MessageList style={{marginTop:15}}>
                             <Message
                                 model={{
-                                    message: '안녕',
+                                    message: '오늘도 와줬구나 반가워 오늘 무슨 일이 있었어? 너의 이야기가 궁금해?',
                                     direction: 'incoming',
                                     position: 'first'
                                 }}/>

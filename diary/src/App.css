@@ -21,11 +21,16 @@ nav {
   position: relative;
 }
 
+
 .logo {
   text-align: center;
   font-size: 90px;
   letter-spacing: 18px;
   line-height: 100px;
+}
+
+.logo > span {
+  cursor: pointer;
 }
 
 .login_signup{
@@ -108,11 +113,11 @@ nav {
   height: 180px;
   border-radius: 10%;
   position: absolute;
-  bottom: 6%;
+  bottom: 9%;
 }
 .modal_1 > li {
   cursor: pointer;
-  background-color: aqua;
+  background-color: #fff;
   width: 140px;
   text-align: center;
   line-height: 30px;
@@ -128,7 +133,7 @@ nav {
   border-left: 25px solid transparent;
   border-bottom: 50px solid #db987b;
   position: absolute;
-  bottom: 0%;
+  bottom: 5%;
   left: 1.2%;
   transform: rotate(180deg);
 }
