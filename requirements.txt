@@ -1,0 +1,6 @@
+@chatscope/chat-ui-kit-react
+react-router-dom
+openai
+cors
+mysql2
+i react-calenda
