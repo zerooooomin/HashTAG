@@ -13,21 +13,23 @@
     left: 50%;
     background:#F8F1E5;
     transform:translate(-50%,-50%); /* translate(x축,y축) */
+    min-width: 500px;
 }
 
 .diarypage_body_title{
     margin: 30px auto;
-    width: 1200px;
+    width: 90%;
     color: #fff;
     font-size: 30px;
     font-weight: bold;
 }
 
 .diarypage_body_content {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     line-height: 40px;
     font-size: 24px;
+    word-wrap: break-word;
 }
 
 .diarypage_body_button {
