@@ -3,4 +3,4 @@ react-router-dom
 openai
 cors
 mysql2
-i react-calenda
+react-calendar
