@@ -12,7 +12,7 @@ const PORT = 4000;
 const db = mysql.createConnection({
   host: 'localhost', // MySQL 호스트
   user: 'root', // MySQL 사용자
-  password: '4519', // MySQL 비밀번호
+  password: 'root1234!!', // MySQL 비밀번호
   database: 'hashtag' // ✅ 사용자가 설정한 스키마 이름
 });
 
@@ -129,7 +129,7 @@ try{
   });
 
   // 클라이언트에게 응답 반환
-  res.json({ success: true, bot_message: botReply });
+  //res.json({ success: true, bot_message: botReply });
 
   } catch (error) {
     console.error("❌ OpenAI API 호출 오류:", error);
